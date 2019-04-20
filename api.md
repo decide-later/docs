@@ -2,6 +2,8 @@
 
 ## GET /state/current
 
+Response with HTTP status 200 OK.
+
 ```json
 {
     "name": "in_airplane",
@@ -36,7 +38,7 @@ Request:
 }
 ```
 
-Response: 
+Response with HTTP status 200:
 
 ```json
 {
@@ -44,7 +46,7 @@ Response:
 }
 ```
 
-or
+or response with HTTP status 400:
 
 ```json
 {
