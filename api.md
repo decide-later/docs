@@ -23,6 +23,8 @@
 
 ## POST /state/transit
 
+Request:
+
 ```json
 {
     "to": "state_name",
@@ -31,5 +33,30 @@
         "name2": "value",
         "name3": "value"
     }
+}
+```
+
+Response: 
+
+```json
+{
+    "success": true
+}
+```
+
+or
+
+```json
+{
+    "success": false,
+    "errors": [
+        {
+            "reason": "you can not do it"
+        },
+        {
+            "field": "name1",
+            "reason": "should be filled"
+        }
+    ]
 }
 ```
