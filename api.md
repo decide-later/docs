@@ -1,6 +1,6 @@
 # API
 
-## GET /state/current
+## GET /state
 
 Response with HTTP status 200 OK.
 
@@ -23,7 +23,7 @@ Response with HTTP status 200 OK.
 }
 ```
 
-## POST /state/transit
+## POST /state
 
 Request:
 
